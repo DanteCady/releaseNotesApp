@@ -1,0 +1,17 @@
+/* markdown.css */
+.custom-caret-color ::-webkit-textfield-caret {
+  color: black; /* WebKit (Chrome, Safari) */
+}
+
+.custom-caret-color ::selection {
+  background-color: black;
+  color: black !important;
+}
+
+.custom-caret-color::-moz-selection {
+  background-color: black; /* Firefox */
+  color: black; /* Firefox */
+}
+.css-1sqnrkk-MuiInputBase-input-MuiOutlinedInput-input {
+  caret-color: black !important;
+}
